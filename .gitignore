@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+buildloop.db
+node_modules/
+apps/web/dist/
+.pio/
+certs/
+*.log
+.run/
+test-results/
+playwright-report/
+docs/demo/videos/
+
+# assistant/agent instruction files stay local
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.claude/
+.cursor/
+
+# internal notes (never published)
+.private/

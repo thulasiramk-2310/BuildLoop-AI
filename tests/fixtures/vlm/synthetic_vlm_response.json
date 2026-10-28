@@ -1,0 +1,5 @@
+{
+  "_provenance": "SYNTHETIC: hand-written in the shape of an OpenAI-compatible chat reply. NOT output of any Meta model. Replace with a real recorded response once a live call is possible.",
+  "choices": [{"message": {"role": "assistant", "content": "{\"components\": [{\"type\": \"esp32\", \"label\": \"dev board\", \"box\": [0.05, 0.15, 0.30, 0.80], \"confidence\": 0.92}, {\"type\": \"led\", \"label\": \"LED\", \"box\": [0.44, 0.25, 0.48, 0.34], \"confidence\": 0.81}, {\"type\": \"resistor\", \"label\": \"resistor\", \"box\": [0.50, 0.42, 0.58, 0.47], \"confidence\": 0.66}]}"}}],
+  "usage": {"prompt_tokens": 1100, "completion_tokens": 140}
+}

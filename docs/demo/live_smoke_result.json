@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-28T16:09:57.187004+00:00",
+  "reasoning_backend": "open_weight",
+  "models": {
+    "segmentation": "sam-3.1",
+    "reasoning": "meta-models/Muse-Glimmer-30B:deepinfra (open-weight via partner endpoint; NOT the Meta Model API)"
+  },
+  "base_url": "https://router.huggingface.co/v1",
+  "muse_ping": {
+    "ok": false,
+    "error": "bad_request: Meta API rejected the request (402): {\"error\":\"You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits.\"}"
+  },
+  "muse_design": {
+    "ok": false,
+    "error": "bad_request: Meta API rejected the request (402): {\"error\":\"You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits.\"}",
+    "trace": []
+  },
+  "metrics": {}
+}
